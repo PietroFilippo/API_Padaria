@@ -1,59 +1,64 @@
+/* estilos globais para a página */
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa;
-  padding-top: 60px; /* Para dar espaço para a barra de navegação */
+  background-color: #f8f9fa; 
+  padding-top: 60px; 
 }
 
+/* estilos da barra de navegação */
 .navbar {
-  background-color: #3f3f3f;
-  color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #3f3f3f; 
+  color: #fff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
+/* estilos para o logotipo padaria */
 .navbar-brand {
   color: #c9c9c9;
   font-size: 2em;
   font-weight: bold;
   padding: 8px 16px;
   border-radius: 4px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
+/* mudança da cor passando o mouse sobre o logotipo */
 .navbar-brand:hover {
-  color: #fff;
+  color: #fff; 
 }
 
+/* estilos para os itens da barra de navegação */
 .navbar-nav {
   display: flex;
   align-items: center;
 }
 
+/* espaçamento entre os itens */
 .nav-item {
-    margin-right: 15px; /* Adicione um espaçamento entre os itens */
-  }
-
-.nav-item {
-  margin-right: 15px;
+  margin-right: 15px; 
 }
 
+/* estilos para os links na barra de navegação */
 .nav-link {
   color: #fff;
   text-decoration: none;
   font-size: 1.2em;
-  transition: color 0.5s ease;
+  transition: color 0.5s ease; 
 }
 
+ /* mudança da cor passando o mouse sobre os links */
 .nav-link:hover {
   color: #ffc107;
   transition: color 0.5s ease;
 }
 
+/* estilos para o conteúdo principal da página */
 .container {
   margin-top: 20px;
   padding: 20px;
-  background-color: #fff;
+  background-color: #fff; /* Cor de fundo do conteúdo principal */
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }

@@ -1,27 +1,33 @@
+/* estilos para o container geral */
 .container {
   margin-top: 20px;
 }
 
+/* estilos para a coluna */
 .col-6 {
-  background-color: #f8f9fa; /* Cor de fundo */
-  border: 1px solid #ced4da; /* Cor da borda */
-  border-radius: 10px; /* Borda arredondada */
+  background-color: #f8f9fa; 
+  border: 1px solid #ced4da; 
+  border-radius: 10px; 
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
+/* cor do h6 */
 h6 {
-  color: #007bff; /* Cor do texto do cabeçalho */
+  color: #007bff; 
 }
 
+/* margem inferior para grupo de formulário */
 .form-group {
   margin-bottom: 20px;
 }
 
+/* espessura da font para o  rótulo de formulário */
 label {
   font-weight: bold;
 }
 
+/* estilos para os campos de entrada do formulário */
 input {
   width: 100%;
   padding: 8px;
@@ -30,11 +36,12 @@ input {
   border-radius: 4px;
 }
 
+/* margem superior do botão */
 button {
   margin-top: 10px;
 }
 
-/* Botão Salvar */
+/* estilos para o botão salvar */
 .btn-outline-secondary {
   background-color: #f58220; 
   color: #fff;
@@ -46,7 +53,7 @@ button {
   border: 1px solid #d45b1a;
 }
 
-/* Botão Voltar  */
+/* estilos para o botão voltar */
 .btn-light {
   background-color: #007bff; 
   border: 1px solid #007bff;

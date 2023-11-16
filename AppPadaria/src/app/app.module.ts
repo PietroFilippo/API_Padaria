@@ -10,6 +10,8 @@ import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ModalModule } from 'ngx-bootstrap/modal';
 
+// serviço para manipular os dados relacionados as models da api
+
 import { DocesService } from './doces.service';
 import { DocesComponent } from './components/doces/doces.component';
 
@@ -23,6 +25,7 @@ import { ClientesService } from './clientes.service';
 import { ClientesComponent } from './components/clientes/clientes.component';
 
 @NgModule({
+  // declaração dos componentes que pertencem a este módulo
   declarations: [
     AppComponent,
     DocesComponent,
@@ -30,6 +33,7 @@ import { ClientesComponent } from './components/clientes/clientes.component';
     PedidosComponent,
     ClientesComponent
   ],
+  // importação de módulos necessários 
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -38,6 +42,7 @@ import { ClientesComponent } from './components/clientes/clientes.component';
     ReactiveFormsModule,
     ModalModule.forRoot()
   ],
+  // serviços disponíveis para a injeção de dependência
   providers: [HttpClientModule, DocesService, SalgadosService, PedidosService, ClientesService],
   bootstrap: [AppComponent]
 })
