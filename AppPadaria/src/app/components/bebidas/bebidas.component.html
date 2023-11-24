@@ -1,0 +1,22 @@
+<!-- SeuComponente.component.html -->
+<div class="container mt-4">
+    <button class="btn btn-primary mb-3" routerLink="/criar-bebida">Criar Bebida</button>
+  
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome bebida</th>
+          <th>Preço bebida</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let bebida of bebidas">
+          <td>{{ bebida.id }}</td>
+          <td>{{ bebida.nomeBebida }}</td>
+          <td>{{ bebida.precoBebida }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

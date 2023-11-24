@@ -24,6 +24,13 @@ import { PedidosComponent } from './components/pedidos/pedidos.component';
 import { ClientesService } from './clientes.service';
 import { ClientesComponent } from './components/clientes/clientes.component';
 
+import { BebidasComponent } from './components/bebidas/bebidas.component';
+
+import { RouterModule } from '@angular/router';
+import { CriarBebidaComponent } from './components/criar-bebida/criar-bebida.component';
+import { FormsModule } from '@angular/forms';
+
+
 @NgModule({
   // declaração dos componentes que pertencem a este módulo
   declarations: [
@@ -31,7 +38,9 @@ import { ClientesComponent } from './components/clientes/clientes.component';
     DocesComponent,
     SalgadosComponent,
     PedidosComponent,
-    ClientesComponent
+    ClientesComponent,
+    BebidasComponent,
+    CriarBebidaComponent
   ],
   // importação de módulos necessários 
   imports: [
@@ -40,7 +49,8 @@ import { ClientesComponent } from './components/clientes/clientes.component';
     CommonModule,
     HttpClientModule,
     ReactiveFormsModule,
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
+    FormsModule
   ],
   // serviços disponíveis para a injeção de dependência
   providers: [HttpClientModule, DocesService, SalgadosService, PedidosService, ClientesService],
